@@ -1,0 +1,64 @@
+* { box-sizing: border-box; margin: 0; padding:0; }
+
+html {
+
+  background: url('awan-di-langit.jpg');
+  background-size:cover; 
+  font-family: 'Helvetica Neue', Arial, Sans-Serif;
+}
+button {
+        background:#3caae7;
+        border:1;
+        color: white;
+        font-size: 20px;
+        font-weight: 200;
+        cursor: pointer;
+        transition: box-shadow .4s ease;
+
+        &:hover {
+          box-shadow: 1px 1px 5px #555;
+        }
+
+        &:active {
+            box-shadow: 1px 1px 7px #222;
+        }
+
+      }
+
+      h2 {
+      text-align: center;
+      font-weight: 200;
+      font-size: 2em;
+      margin-top: 10px;
+      color: rgba(223, 14, 249, 0.73);
+    }
+    
+      .login-wrap {
+          position: relative;
+          margin: 0 auto;
+          margin-top: 80px;
+          background: #ecf0f1;
+          width: 350px;
+          border-radius: 5px;
+          box-shadow: 3px 3px 10px #333;
+          padding: 10px;
+        }
+
+        input[type="text"],
+              input[type="password"],
+              button {
+                width: 80%;
+                margin-left: 10%;
+                margin-bottom: 25px;
+                height: 40px;
+                border-radius: 5px;
+                outline: 0;
+              }
+              
+     .imgcenter {
+      display: block;
+      text-align: center;
+      width: 20px;
+      height: 20px;
+      padding: 1px;
+}
